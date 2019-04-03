@@ -50,7 +50,7 @@ end
 def count_elements(array)
   count_array = []
   array.each do |element|
-    element[:name] << count_array
+    count_array << element[:name]
     binding.pry
 
   end
