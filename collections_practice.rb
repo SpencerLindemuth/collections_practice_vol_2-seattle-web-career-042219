@@ -4,6 +4,6 @@ def begins_with_r(array)
     if i[0] != 'r' || 'R'
       return false
     end
-    return true
   end
+  return true
 end
