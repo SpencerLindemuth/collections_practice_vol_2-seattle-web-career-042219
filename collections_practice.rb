@@ -81,6 +81,10 @@ def merge_data(keys, data)
   merged_array
 end
 
+def find_cool()
+
+end
+
 #r = ['rails', 'ruby', 'radio']
 #not_r = ['rails', 'ruby', 'sails']
 
