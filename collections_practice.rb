@@ -38,7 +38,7 @@ def first_wa(array)
 end
 
 def remove_non_strings(array)
-  array.each_with_index do |element, i|
+  array.each do |element|
     binding.pry
     if element.class != String
       array.delete(element)
