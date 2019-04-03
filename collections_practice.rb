@@ -15,7 +15,6 @@ def contain_a(array)
   array.each do |x|
     y = x.split("")
     y.each do |letter|
-      binding.pry
       if letter == 'a'
         container << x
       end
