@@ -68,7 +68,7 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-  data.each do |name, info|
+  keys.each do |name, info|
     binding.pry
   end
 end
