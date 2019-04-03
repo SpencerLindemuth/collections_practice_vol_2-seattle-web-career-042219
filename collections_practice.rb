@@ -28,3 +28,9 @@ def contain_a(array)
   container
 
 end
+
+r = ['rails', 'ruby', 'radio']
+not_r = ['rails', 'ruby', 'sails']
+
+puts begins_with_r(r)
+puts begins_with_r(not_r)
