@@ -59,7 +59,7 @@ def count_elements(array)
   end
   counts for each do |name, times|
     final << {name: name, count: times}
-  binding.pry
+  end
   count_array
 end
 
