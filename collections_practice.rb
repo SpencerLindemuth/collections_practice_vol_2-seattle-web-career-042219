@@ -67,6 +67,10 @@ def count_elements(array)
   count_array
 end
 
+def merge_data(keys, data)
+
+end
+
 #r = ['rails', 'ruby', 'radio']
 #not_r = ['rails', 'ruby', 'sails']
 
