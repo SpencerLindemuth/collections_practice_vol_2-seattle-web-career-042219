@@ -55,6 +55,8 @@ def count_elements(array)
         num = count_array[i][:count]
         num += 1
         count_array[i][:count] = num
+      else
+        count_array << {name: element[:name], count: 1}
       end
     end
 
