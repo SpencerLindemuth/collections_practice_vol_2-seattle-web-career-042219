@@ -50,10 +50,13 @@ end
 def count_elements(array)
   count_array = []
   array.each do |element|
-    counts = Hash.new 0
-    element.each do |word|
-      counts[word] += 1
-    end
+    count_array << element[:name]
+  end
+  counts = Hash.new 0
+  element.each do |word|
+    counts[word] += 1
+  end
+  binding.pry
 end
 end
 
