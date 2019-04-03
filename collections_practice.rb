@@ -55,7 +55,7 @@ def count_elements(array)
     else
       plus = count_array[element][:count]
       plus += 1
-      count_array[element][:count] = plus 
+      count_array[element][:count] = plus
     end
   end
 end
