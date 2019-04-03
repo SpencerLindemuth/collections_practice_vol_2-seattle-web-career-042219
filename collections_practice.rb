@@ -60,7 +60,7 @@ def count_elements(array)
   counts for each do |name, times|
     final << {name: name, count: times}
   end
-  count_array
+  final
 end
 
 def merge_data(keys, data)
