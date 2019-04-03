@@ -57,7 +57,7 @@ def count_elements(array)
         count_array[i][:count] = num
       end
     end
-    
+
     end
   end
   count_array
