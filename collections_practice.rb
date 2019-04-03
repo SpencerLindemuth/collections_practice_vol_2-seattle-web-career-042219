@@ -37,6 +37,15 @@ def first_wa(array)
   end
 end
 
+def remove_non_strings(array)
+  array.each_with_index do |element, i|
+    if element.is_a? != true
+      array.delete_at(i)
+    end
+  end
+end
+  
+
 #r = ['rails', 'ruby', 'radio']
 #not_r = ['rails', 'ruby', 'sails']
 
