@@ -29,8 +29,8 @@ def contain_a(array)
 
 end
 
-r = ['rails', 'ruby', 'radio']
-not_r = ['rails', 'ruby', 'sails']
+#r = ['rails', 'ruby', 'radio']
+#not_r = ['rails', 'ruby', 'sails']
 
-puts begins_with_r(r)
-puts begins_with_r(not_r)
+#puts begins_with_r(r)
+#puts begins_with_r(not_r)
