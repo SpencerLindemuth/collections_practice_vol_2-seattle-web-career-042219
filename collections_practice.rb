@@ -50,7 +50,9 @@ end
 def count_elements(array)
   count_array = []
   array.each do |element|
-    if count_array.length > 0
+    if count_array.length == 0
+      count_array << {name: element[:name], count: 1}
+    else
       count_array.each_with_index do |x, i|
         if x[:name] == element[:name]
           num = count_array[i][:count]
@@ -60,8 +62,6 @@ def count_elements(array)
           count_array << {name: element[:name], count: 1}
         end
       end
-    else
-      count_array << {name: element[:name], count: 1}
     end
   end
   count_array
