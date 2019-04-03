@@ -82,11 +82,13 @@ def merge_data(keys, data)
 end
 
 def find_cool(array)
+  cool_array = []
   array.each do |element|
     if element[:temperature] == "cool"
-      return element
+      element << cool_array
     end
   end
+  cool_array
 end
 
 #r = ['rails', 'ruby', 'radio']
