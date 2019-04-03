@@ -74,7 +74,7 @@ def merge_data(keys, data)
                       data[0][name[:first_name]]
                       motto: name[:motto]
                       }
-    
+
   end
   merged_array
 end
