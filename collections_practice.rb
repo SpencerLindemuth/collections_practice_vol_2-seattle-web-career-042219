@@ -50,6 +50,7 @@ end
 def count_elements(array)
   count_array = []
   array.each do |element|
+    binding.pry
     if !count_array.include?(element)
       count_array << {name: element[:name], count: 1}
     else
