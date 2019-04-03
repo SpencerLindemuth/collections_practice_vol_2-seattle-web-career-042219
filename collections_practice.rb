@@ -30,7 +30,11 @@ def contain_a(array)
 end
 
 def first_wa(array)
-
+  array.each do |x|
+    if x[0..1] == "wa"
+      return x
+    end
+  end
 end
 
 #r = ['rails', 'ruby', 'radio']
