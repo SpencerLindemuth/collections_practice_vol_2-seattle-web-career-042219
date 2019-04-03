@@ -39,7 +39,7 @@ end
 
 def remove_non_strings(array)
   array.each_with_index do |element, i|
-    if element.is_a? != true
+    if element.is_s? != true
       array.delete_at(i)
     end
   end
