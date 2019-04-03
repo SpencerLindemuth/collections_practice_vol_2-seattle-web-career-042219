@@ -92,7 +92,9 @@ def find_cool(array)
 end
 
 def organized_schools(schools)
-
+  schools.each do |keys, values|
+    binding.pry
+  end
 end
 
 #r = ['rails', 'ruby', 'radio']
