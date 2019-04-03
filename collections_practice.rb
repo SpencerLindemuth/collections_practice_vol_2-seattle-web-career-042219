@@ -43,6 +43,7 @@ def remove_non_strings(array)
       array.delete_at(i)
     end
   end
+  return array
 end
 
 
