@@ -68,9 +68,15 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-  keys.each do |name|
-    binding.pry
+  merged_array = []
+  keys.each_with_index do |name, i|
+    merged_array[i] = {first_name: name[:first_name],
+                      data[0][name[:first_name]]
+                      motto: name[:motto]
+                      }
+    
   end
+  merged_array
 end
 
 #r = ['rails', 'ruby', 'radio']
