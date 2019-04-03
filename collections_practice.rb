@@ -29,6 +29,10 @@ def contain_a(array)
 
 end
 
+def first_wa(array)
+  
+end
+
 #r = ['rails', 'ruby', 'radio']
 #not_r = ['rails', 'ruby', 'sails']
 
