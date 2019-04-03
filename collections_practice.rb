@@ -1,12 +1,20 @@
 require 'pry'
 # your code goes here
 def begins_with_r(array)
+  false_array = []
+  truth_array = []
   array.each do |i|
     if i[0] != 'r' || 'R'
-      return false
+      false_array << false
+    elsif i[0] == 'r' || 'R'
+      truth_array << true
     end
   end
-  return true
+  if false_array.length > 0
+    return false
+  elsif truth_array.length == array.length
+    return true
+  end
 end
 
 
