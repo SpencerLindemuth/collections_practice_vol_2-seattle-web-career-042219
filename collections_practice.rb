@@ -58,6 +58,7 @@ def count_elements(array)
       count_array[element][:count] = plus
     end
   end
+  count_array
 end
 
 #r = ['rails', 'ruby', 'radio']
