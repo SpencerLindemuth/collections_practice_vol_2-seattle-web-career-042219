@@ -94,7 +94,6 @@ end
 def organize_schools(schools)
   organized_hash = {}
   schools.each do |keys, values|
-    binding.pry
     (organized_hash[values[:location]] || = []) << keys
     #organized_hash[values[:location]] << keys
   end
