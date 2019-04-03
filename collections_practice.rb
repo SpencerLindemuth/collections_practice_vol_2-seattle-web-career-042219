@@ -3,7 +3,6 @@ require 'pry'
 def begins_with_r(array)
   false_array = []
   array.each do |i|
-    binding.pry
     if i[0] != 'r' || 'R'
       false_array << false
     end
