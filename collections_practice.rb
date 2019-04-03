@@ -38,12 +38,13 @@ def first_wa(array)
 end
 
 def remove_non_strings(array)
+  new_array = []
   array.each do |element|
-    if element.class != String
-      array.delete(element)
+    if element.class == String
+      new_array << element
     end
   end
-  array
+  new_array
 end
 
 
