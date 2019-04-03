@@ -50,10 +50,11 @@ end
 def count_elements(array)
   count_array = []
   array.each do |element|
-    count_array << element[:name]
-    binding.pry
-
-  end
+    counts = Hash.new 0
+    element.each do |word|
+      counts[word] += 1
+    end
+end
 end
 
 def merge_data(keys, data)
