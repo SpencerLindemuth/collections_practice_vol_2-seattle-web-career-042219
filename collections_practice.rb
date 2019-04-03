@@ -60,10 +60,9 @@ def count_elements(array)
           count_array << {name: element[:name], count: 1}
         end
       end
-    else 
+    else
       count_array << {name: element[:name], count: 1}
     end
-
   end
   count_array
 end
