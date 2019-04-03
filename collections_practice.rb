@@ -56,7 +56,6 @@ def count_elements(array)
   element.each do |word|
     counts[word] += 1
   end
-  binding.pry
   count_array
 end
 
