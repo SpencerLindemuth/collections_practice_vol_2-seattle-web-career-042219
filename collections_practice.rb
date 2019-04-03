@@ -12,7 +12,6 @@ end
 
 def contain_a(array)
   array.each do |x|
-    y = array.split("")
     binding.pry
   end
 
