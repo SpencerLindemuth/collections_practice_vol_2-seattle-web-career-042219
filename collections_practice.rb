@@ -93,6 +93,8 @@ end
 
 def organized_schools(schools)
 
+end
+
 #r = ['rails', 'ruby', 'radio']
 #not_r = ['rails', 'ruby', 'sails']
 
