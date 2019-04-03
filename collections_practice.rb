@@ -52,7 +52,7 @@ def count_elements(array)
   array.each do |element|
     binding.pry
     if !count_array.include?(element)
-      #count_array << {element, count: 1}
+      count_array << {name: element[:name], count: 1}
     else
       plus = count_array[element][:count]
       plus += 1
