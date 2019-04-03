@@ -49,6 +49,7 @@ end
 
 def count_elements(array)
   count_array = []
+  final = []
   array.each do |element|
     count_array << element[:name]
   end
@@ -56,6 +57,8 @@ def count_elements(array)
   count_array.each do |word|
     counts[word] += 1
   end
+  counts for each do |name, times|
+    final << {name: name, count: times}
   binding.pry
   count_array
 end
