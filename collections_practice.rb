@@ -91,7 +91,7 @@ def find_cool(array)
   cool_array
 end
 
-def organized_schools(schools)
+def organize_schools(schools)
   schools.each do |keys, values|
     binding.pry
   end
