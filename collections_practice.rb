@@ -58,7 +58,6 @@ def count_elements(array)
   end
   binding.pry
 end
-end
 
 def merge_data(keys, data)
   merged_array = []
