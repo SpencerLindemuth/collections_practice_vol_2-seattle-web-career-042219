@@ -52,6 +52,7 @@ def count_elements(array)
   array.each do |element|
     if count_array.length > 0
       count_array.each_with_index do |x, i|
+        binding.pry
         if x[:name] == element[:name]
           num = count_array[i][:count]
           num += 1
