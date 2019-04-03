@@ -2,18 +2,15 @@ require 'pry'
 # your code goes here
 def begins_with_r(array)
   false_array = []
-  truth_array = []
   array.each do |i|
     binding.pry
     if i[0] != 'r' || 'R'
       false_array << false
-    elsif i[0] == 'r' || 'R'
-      truth_array << true
     end
   end
   if false_array.length > 0
     return false
-  elsif truth_array.length == array.length
+  else
     return true
   end
 end
