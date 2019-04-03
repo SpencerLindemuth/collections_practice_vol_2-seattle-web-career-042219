@@ -50,9 +50,9 @@ end
 def count_elements(array)
   count_array = []
   array.each do |element|
-    binding.pry
-    if count_array.include?(element[:name])
-    end
+    element[:name] << count_array
+    
+    
   end
 end
 
