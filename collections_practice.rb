@@ -57,7 +57,7 @@ def count_elements(array)
   count_array.each do |word|
     counts[word] += 1
   end
-  counts for each do |name, times|
+  counts.each do |name, times|
     final << {name: name, count: times.to_i}
   end
   final
