@@ -53,7 +53,7 @@ def count_elements(array)
     count_array << element[:name]
   end
   counts = Hash.new 0
-  element.each do |word|
+  count_array.each do |word|
     binding.pry
     counts[word] += 1
   end
