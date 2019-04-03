@@ -54,9 +54,9 @@ def count_elements(array)
   end
   counts = Hash.new 0
   count_array.each do |word|
-    binding.pry
     counts[word] += 1
   end
+  binding.pry
   count_array
 end
 
