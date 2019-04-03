@@ -48,7 +48,16 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-
+  count_array = []
+  array.each do |element|
+    if !count_array.include?(element)
+      count_array << {element, count: 1}
+    else
+      plus = count_array[element][:count]
+      plus += 1
+      count_array[element][:count] = plus 
+    end
+  end
 end
 
 #r = ['rails', 'ruby', 'radio']
