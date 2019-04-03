@@ -57,6 +57,7 @@ def count_elements(array)
     counts[word] += 1
   end
   binding.pry
+  count_array
 end
 
 def merge_data(keys, data)
