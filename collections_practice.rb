@@ -68,7 +68,9 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-  binding.pry
+  data.each do |name, info|
+    binding.pry
+  end
 end
 
 #r = ['rails', 'ruby', 'radio']
