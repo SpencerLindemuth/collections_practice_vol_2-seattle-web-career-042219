@@ -91,6 +91,8 @@ def find_cool(array)
   cool_array
 end
 
+def organized_schools(schools)
+
 #r = ['rails', 'ruby', 'radio']
 #not_r = ['rails', 'ruby', 'sails']
 
