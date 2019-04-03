@@ -72,7 +72,7 @@ def merge_data(keys, data)
   keys.each_with_index do |name, i|
     binding.pry
     merged_array[i] = {first_name: name[:first_name],
-                      data[0][name[:first_name]],
+                      #data[0][name[:first_name]],
                       motto: name[:motto]
                       }
 
