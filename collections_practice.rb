@@ -39,7 +39,6 @@ end
 
 def remove_non_strings(array)
   array.each do |element|
-    binding.pry
     if element.class != String
       array.delete(element)
     end
