@@ -71,7 +71,7 @@ def merge_data(keys, data)
   merged_array = []
   keys.each_with_index do |name, i|
     merged_array[i] = {first_name: name[:first_name],
-                      data[0][name[:first_name]]
+                      data[0][name[:first_name]],
                       motto: name[:motto]
                       }
 
