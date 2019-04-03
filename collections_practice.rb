@@ -94,8 +94,10 @@ end
 def organize_schools(schools)
   organized_hash = {}
   schools.each do |keys, values|
-    organized_hash[values[:location]] << keys
-    #organized_hash[values[:location]] << keys
+    array = schools.select do |k, v|
+      binding.pry
+      #organized_hash[values[:location]] << keys
+    end
   end
   organized_hash
 end
