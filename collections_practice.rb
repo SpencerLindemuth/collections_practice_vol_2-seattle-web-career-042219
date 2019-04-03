@@ -60,7 +60,6 @@ def count_elements(array)
       end
     end
 
-    end
   end
   count_array
 end
