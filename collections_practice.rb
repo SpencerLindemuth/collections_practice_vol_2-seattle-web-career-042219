@@ -44,7 +44,7 @@ def remove_non_strings(array)
     end
   end
 end
-  
+
 
 #r = ['rails', 'ruby', 'radio']
 #not_r = ['rails', 'ruby', 'sails']
