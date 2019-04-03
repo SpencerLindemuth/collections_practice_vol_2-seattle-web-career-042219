@@ -13,7 +13,6 @@ end
 def contain_a(array)
   container = []
   array.each do |x|
-    binding.pry
     y = x.split("")
     y.each do |letter|
       if letter == 'a'
